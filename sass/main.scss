@@ -1,0 +1,11 @@
+$fontFamily: Calibri, sand serif;
+$fontSize: 16px;
+
+body {
+	font-family: $fontFamily;
+}
+
+h1 {
+	font-size: $fontSize;
+	transform: rotate (-20deg);
+}
