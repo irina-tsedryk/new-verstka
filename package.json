@@ -1,0 +1,28 @@
+{
+  "name": "new-verstka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irina-tsedryk/new-verstka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irina-tsedryk/new-verstka/issues"
+  },
+  "homepage": "https://github.com/irina-tsedryk/new-verstka#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
