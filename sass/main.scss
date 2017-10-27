@@ -1,11 +1,46 @@
 $fontFamily: Calibri, sand serif;
-$fontSize: 16px;
+$fontSize: 15px;
+$marginTop: 30px;
+$marginLeft: 20px;
+$borderRadius: 10px;
+$borderStyle: solid;
+$borderWidth: 1px;
+$borderColor: #b5bdc8;
+$background: -webkit-linear-gradient(top, #f5f6f8 0%,#f5f6f8 48%,#f8f9fb 63%,#fafbfd 100%);
+
+html,body{margin:0;padding:0}
 
 body {
-	font-family: $fontFamily;
+	background: url('/images/background.png');
+	font-family: arial,sans-serif;
+	font-size: $fontSize;
+	width: 1200px;
+	height: 1450px;
 }
 
-h1 {
-	font-size: $fontSize;
-	background: red;
-}
+p{margin:0 10px 10px}
+
+a{display:block; color: #981793; padding:10px}
+
+.container{margin:0 auto;}
+
+.header {position: relative; width:980px; height: 160px; background: url('/images/logo.png');}
+
+.sidebar_left{position: relative; float:left; height: 1180px; width: 300px; }
+.left_nov { float: none; width: 207px; height: 410px; background: url('/images/left_nov.png'); }
+.left_useful { float: none; width: 207px; height: 358px; }
+.left_contacts{float: none; width: 207px; height: 275px; }
+
+.content{ width:465px; height: 1180px; float:left;}
+.content_block{width:430px; height: 245px; float:left; background: #bec2cb;}
+
+.sidebar_right{ width:255px; height: 1180px; float:left;}
+.right_ban{width:215px; height: 245px; float:left; }
+.right_fotoban{ width:215px; height: 375px; float:left; border-radius: 10px 10px 0 0; }
+.right_fotoban_second{width:215px; height: 455px; float:left; border-radius: 0 0 10px 10px;}
+.sidebar_right a img{}
+
+
+.footer{width:100%; height: 70px; color: #b5bdc8; clear:left;}
+
+.footer p{margin:0; padding: 5px 10px}
